@@ -1,0 +1,358 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\froman\fcharset0 Palatino-Roman;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\ftech\fcharset77 Symbol;\f4\fnil\fcharset0 Cambria;\f5\fmodern\fcharset0 Courier-Bold;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid10}
+{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid11}
+{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid12}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}}
+\margl1440\margr1440\vieww28600\viewh16520\viewkind0
+\deftab720
+\pard\pardeftab720\ri-1440
+
+\f0\b\fs30 \cf0 Git command lines:\
+\
+git init: 
+\b0 initializing a git repository\
+\
+
+\b git status:
+\b0  see the status of file\
+\
+
+\b git add FILE: 
+\b0 specifying what composes the snapshot by staging  files\
+\
+
+\b git commit \'96m MESSAGE: 
+\b0 committing stuff as a block with a message\
+\
+
+\b git log / gitk: 
+\b0 seeing previous commits\
+\
+\pard\pardeftab720\ri-1440
+
+\i\b \cf0 \ul \ulc0 Undoing Changes:\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone \
+git reset HEAD [file]: 
+\b0 untrack the original-tracked files; \
+	
+\f1\fs24 Why might we need to use this command? Let's say you accidentally started tracking a file that you didn't want to track. (.class files, for instance.) Or you were doing some work and thought you would commit but no longer want to commit the file.\
+\
+
+\f0\b\fs30 git add [forgotten-file] & git commit - -amend:
+\b0  (changing commit message or add forgotten files); new amended commit will replace the previous commit\
+\
+
+\b git checkout - -  [file]: 
+\b0 reverting a file to its state at the time of the most recent commit;\
+	
+\f1\fs24 Let's say that you have modified a certain 
+\f2 file
+\f1  since committing previously, but you would like your file back to how it was before your modifications.\
+\
+\pard\pardeftab720\ri-1440
+
+\f0\i\b\fs30 \cf0 \ul \ulc0 Git Branching:\
+\pard\pardeftab720\ri-1440
+
+\f1\i0\b0\fs24 \cf0 \ulnone Branches allow you to keep track of multiple different versions of your work simultaneously. One way to think of branches are as alternate dimensions. Perhaps one branch is the result of choosing to use a linked list while another branch is the result of choosing to use an array.
+\f0\b\fs30 \
+\
+\pard\pardeftab720\ri-1440
+
+\b0 \cf0 \
+\
+\
+\
+\pard\pardeftab720\ri-1440
+
+\b \cf0 Reasons for Branching:\
+\pard\pardeftab720\ri-1440
+
+\f1\b0\fs24 \cf0 Here are some cases when it may be a good idea to branch.\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls1\ilvl0
+\f3 \cf0 \'a5	
+\f1 You may want to make a dramatic change to your existing code (called refactoring) but it will break other parts of your project. But you want to be able to simultaneously work on other parts or you have partners, and you don't want to break the code for them.\
+\ls1\ilvl0
+\f3 \'a5	
+\f1 You want to start working on a new part of the project, but you aren't sure yet if your changes will work and make it to the final product.\
+\ls1\ilvl0
+\f3 \'a5	
+\f1 You are working with partners and don't want to mix up your current work with theirs, even if you want to bring your work together later in the future.\
+\pard\pardeftab720\ri-1440
+\cf0 Creating a branch will let you keep track of multiple different versions of your code, and you can easily switch between versions and merge branches together once you've finished working on a section and want it to join the rest of your code.
+\f0\b\fs30 \
+\
+An Example Scenario for branching:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls2\ilvl0
+\f3\b0\fs24 \cf0 \'a5	
+\f1 If your code works, you can merge the branch back to your main code (on the mas
+\f2 ter br
+\f1 anch) and submit your project.\
+\ls2\ilvl0
+\f3 \'a5	
+\f1 If your code doesn't work, don't worry about reverting your code and having to manipulate Git history. You can simply switch back to master
+\f2 , whic
+\f1 h won't have any of your changes, create another branch, and try out your second idea.
+\f0\b\fs30 \
+\pard\pardeftab720\ri-1440
+\cf0 \
+Creating, Deleting & Switching Branches:\
+Head: 
+\b0 referring to the branch you currently have as your working directory\
+\
+
+\b git branch [new-branch-name]: 
+\b0 creating a branch off of your current branch\
+
+\b \
+git checkout [destination-branch]: 
+\b0 switching from one branch to another by changing which branch your HEAD pointer references\
+\
+
+\b git checkout \'96b [new-branch-name]:
+\b0  combine the two commands above\
+\
+
+\b git branch \'96d [branch-to-delete]: 
+\b0 deleting a branch\
+\
+
+\b git branch \'96v:
+\b0  viewing branches\
+\
+\pard\pardeftab720\ri-1440
+
+\i\b \cf0 \ul \ulc0 Merging:\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone \
+git checkout master & git merge [branch-name]: 
+\b0 checkout master branch and merge [branch-name] into master.\
+\
+\pard\pardeftab720\ri-1440
+
+\i\b \cf0 \ul \ulc0 Stashing:\
+\
+\pard\pardeftab720\ri-1440
+
+\f1\i0\b0\fs24 \cf0 \ulnone Stashing allows you to save your changes onto a stack without making a more permanent commit. It is equivalent to picking up your work-in-progress and placing it in a box to get back to later. In the meantime, your desk is now clean.\
+\
+Why might you want to use this?\
+\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls3\ilvl0
+\f3 \cf0 \'a5	
+\f1 Your files may be in a disorganized state, and you don't want to commit yet, but you also don't want to get rid of your changes.\
+\ls3\ilvl0
+\f3 \'a5	
+\f1 You modified multiple files, but you dislike your changes and you would just like to get things back to how they were after your most recent commit. Then you can stas
+\f2 h you
+\f1 r code and then drop that stash rather than having to manually revert multiple files. (Be careful with this usage!)\
+\ls3\ilvl0
+\f3 \'a5	
+\f1 You modified files but accidentally modified them on the wrong branch. Then you can stash y
+\f2 our c
+\f1 hanges, switch branches, and unstash your changes so that they are all in the new branch.
+\f0\b\fs30 \
+\pard\pardeftab720\ri-1440
+\cf0 \
+\pard\pardeftab720\ri-1440
+
+\i \cf0 \ul \ulc0 Rewriting history:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls4\ilvl0
+\f3\i0\b0\fs24 \cf0 \ulnone \'a5	
+\f1 Let's say you want to do more than change your last commit or drop changes to your files before your most recent commit. What if you want to do something crazy like rewrite history? You can change multiple commit messages, splits one commits into two, and reorder commits.
+\f0\b\fs30 \
+\pard\pardeftab720\ri-1440
+
+\i \cf0 \ul \ulc0 \
+Rebasing:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls5\ilvl0
+\f3\i0\b0\fs24 \cf0 \ulnone \'a5	
+\f1 Rebasing changes the parent commit of a specific commit. In doing this, it changes the commits so that it is no longer the same.\
+\pard\pardeftab720\ri-1440
+
+\f2 \cf0 \
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls6\ilvl0
+\f3 \cf0 \'a5	
+\f2 Rebas
+\f1 e can be used as an alternative to
+\f2  merg
+\f1 e for integrating changes from one branch to another. It is quite different from
+\f2  merg
+\f1 e in that
+\f2  merg
+\f1 e creates a new commit that has both parent branch commits as parents. Rebasing takes one set of commits from a branch and places them all at the end of the other branch.\
+\pard\pardeftab720\ri-1440
+\cf0 \
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls7\ilvl0
+\f3 \cf0 \'a5	
+\f1 There are different reasons why you would want to us
+\f2 e mer
+\f1 ge versu
+\f2 s reba
+\f1 se. One of these reasons is tha
+\f2 t reba
+\f1 se leads to a cleaner history when working with many different branches and team member
+\f4 s.
+\f0\i\b\fs30 \ul \
+\pard\pardeftab720\ri-1440
+\cf0 \ulc0 \
+Reset:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls8\ilvl0
+\f3\i0\b0\fs24 \cf0 \ulnone \'a5	
+\f1 Perhaps you decide that you want things to be how they were a certain number of commits ago. You can use 
+\f2 reset
+\f1  if you are absolutely sure that you don't want the last few commits. 
+\f2 Reset
+\f1  is quite a nuanced command, so read carefully before attempting use.
+\f0\i\b\fs30 \ul \
+\pard\pardeftab720\ri-1440
+\cf0 \ulc0 \
+Revert:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls9\ilvl0
+\f3\i0\b0\fs24 \cf0 \ulnone \'a5	
+\f2 Revert
+\f1  allows you to reverse the changes introduced by certain commits by recording new commits to undo the changes. This is a safer option that simply throwing away past commits. But again, use this with caution.
+\f0\i\b\fs30 \ul \
+\pard\pardeftab720\ri-1440
+\cf0 \ulc0 \
+Cherry pick:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls10\ilvl0
+\f3\i0\b0\fs24 \cf0 \ulnone \'a5	
+\f2 Cherry pick
+\f1  allows you to apply the changes introduced by some existing commits. For example, if you have two different branches, and your current branch lacks one or two commits that would be helpful but are only in the other branch, then you can 
+\f2 cherry pick
+\f1  to grab those commits without merging or rebasing to get all the commits.
+\f0\i\b\fs30 \ul \
+\pard\pardeftab720\ri-1440
+\cf0 \ulc0 \
+\
+\
+\
+Adding Remotes:\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone \
+git remote add [short-name] [remote-url]: 
+\f1\b0 Adding a remote repository means that you are telling git where the repo is located.\
+\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls11\ilvl0
+\f3\fs24 \cf0 \'a5	
+\f1\b HTTP: 
+\b0 https://github.com/berkeley-cs61b/skeleton.git
+\b \
+\ls11\ilvl0
+\f3\b0 \'a5	
+\f1\b SSH: 
+\b0 git@github.com:berkeley-cs61b/skeleton.git
+\b \
+\pard\pardeftab720\ri-1440
+
+\f0\fs30 \cf0 \
+Ex: 
+\f5\fs24 git remote add origin https://github.com/berkeley-cs61b/skeleton.git\
+
+\f0\fs30       
+\f5\fs24 git remote add origin git@github.com:berkeley-cs61b/skeleton.git\
+
+\f0\fs30 \
+\pard\pardeftab720\ri-1440
+
+\i \cf0 \ul \ulc0 Renaming, Deleting & Listing Remotes:\
+\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone git remote rename [old-name] [new-name]: 
+\b0 renaming your remote\
+
+\b \
+git remote rm [remote-name]: 
+\b0 removing if you are no longer using it\
+\
+
+\b git remote \'96v: 
+\b0 seeing what remotes you have\
+\
+\pard\pardeftab720\ri-1440
+
+\i\b \cf0 \ul \ulc0 Cloning a Remote:\
+\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone git clone [remote-url]: \
+git clone [remote-url] [directory-name]: 
+\b0 copying to your own computer\
+\
+\pard\pardeftab720\ri-1440
+
+\i\b \cf0 \ul \ulc0 Pusing Commits:\
+\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone git push [remote-name] [remote-branch]: 
+\b0 updating the contents of a remote repo by adding some commits that you mad locally\
+\
+
+\b git push origin master\
+\
+\pard\pardeftab720\ri-1440
+
+\i \cf0 \ul \ulc0 Fetching & Pulling Commits:\
+\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone Fetch: 
+\b0 This is analogous to downloading the commits. It does not incorporate them into your own code.\
+\
+
+\b git fetch [remote-name]:\
+\pard\pardeftab720\li720\fi-360\ri-1440
+\ls12\ilvl0
+\f3\b0\fs24 \cf0 \'a5	
+\f1 Why might you use this? Your partner may have created some changes that you'd like to review but keep separate from your own code. Fetching the changes will only update your local copy of the remote code but not merge the changes into your own code.
+\f0\b\fs30 \
+\pard\pardeftab720\ri-1440
+\cf0 \
+\pard\pardeftab720\ri-1440
+
+\i \cf0 \ul \ulc0 Pull: fetch + pull\
+\
+\pard\pardeftab720\ri-1440
+
+\i0 \cf0 \ulnone git pull [remote-name] [remote-branch-name]: 
+\b0 not only will pull fetch the most recent changes, it will also merge the changes into your HEAD branch.\
+\
+
+\b git pull origin master\
+\
+\
+\pard\pardeftab720\ri-1440
+
+\b0 \cf0 \
+}
