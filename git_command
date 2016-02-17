@@ -1,0 +1,134 @@
+Git command lines:
+
+git init: initializing a git repository
+
+git status: see the status of file
+
+git add FILE: specifying what composes the snapshot by staging  files
+
+git commit –m MESSAGE: committing stuff as a block with a message
+
+git log / gitk: seeing previous commits
+
+Undoing Changes:
+
+git reset HEAD [file]: untrack the original-tracked files; 
+	Why might we need to use this command? Let's say you accidentally started tracking a file that you didn't want to track. (.class files, for instance.) Or you were doing some work and thought you would commit but no longer want to commit the file.
+
+git add [forgotten-file] & git commit - -amend: (changing commit message or add forgotten files); new amended commit will replace the previous commit
+
+git checkout - -  [file]: reverting a file to its state at the time of the most recent commit;
+	Let's say that you have modified a certain file since committing previously, but you would like your file back to how it was before your modifications.
+
+Git Branching:
+Branches allow you to keep track of multiple different versions of your work simultaneously. One way to think of branches are as alternate dimensions. Perhaps one branch is the result of choosing to use a linked list while another branch is the result of choosing to use an array.
+
+ 
+
+
+
+Reasons for Branching:
+Here are some cases when it may be a good idea to branch.
+•	You may want to make a dramatic change to your existing code (called refactoring) but it will break other parts of your project. But you want to be able to simultaneously work on other parts or you have partners, and you don't want to break the code for them.
+•	You want to start working on a new part of the project, but you aren't sure yet if your changes will work and make it to the final product.
+•	You are working with partners and don't want to mix up your current work with theirs, even if you want to bring your work together later in the future.
+Creating a branch will let you keep track of multiple different versions of your code, and you can easily switch between versions and merge branches together once you've finished working on a section and want it to join the rest of your code.
+
+An Example Scenario for branching:
+•	If your code works, you can merge the branch back to your main code (on the master branch) and submit your project.
+•	If your code doesn't work, don't worry about reverting your code and having to manipulate Git history. You can simply switch back to master, which won't have any of your changes, create another branch, and try out your second idea.
+
+Creating, Deleting & Switching Branches:
+Head: referring to the branch you currently have as your working directory
+
+git branch [new-branch-name]: creating a branch off of your current branch
+
+git checkout [destination-branch]: switching from one branch to another by changing which branch your HEAD pointer references
+
+git checkout –b [new-branch-name]: combine the two commands above
+
+git branch –d [branch-to-delete]: deleting a branch
+
+git branch –v: viewing branches
+
+Merging:
+
+git checkout master & git merge [branch-name]: checkout master branch and merge [branch-name] into master.
+
+Stashing:
+
+Stashing allows you to save your changes onto a stack without making a more permanent commit. It is equivalent to picking up your work-in-progress and placing it in a box to get back to later. In the meantime, your desk is now clean.
+
+Why might you want to use this?
+
+•	Your files may be in a disorganized state, and you don't want to commit yet, but you also don't want to get rid of your changes.
+•	You modified multiple files, but you dislike your changes and you would just like to get things back to how they were after your most recent commit. Then you can stash your code and then drop that stash rather than having to manually revert multiple files. (Be careful with this usage!)
+•	You modified files but accidentally modified them on the wrong branch. Then you can stash your changes, switch branches, and unstash your changes so that they are all in the new branch.
+
+Rewriting history:
+•	Let's say you want to do more than change your last commit or drop changes to your files before your most recent commit. What if you want to do something crazy like rewrite history? You can change multiple commit messages, splits one commits into two, and reorder commits.
+
+Rebasing:
+•	Rebasing changes the parent commit of a specific commit. In doing this, it changes the commits so that it is no longer the same.
+
+•	Rebase can be used as an alternative to merge for integrating changes from one branch to another. It is quite different from merge in that merge creates a new commit that has both parent branch commits as parents. Rebasing takes one set of commits from a branch and places them all at the end of the other branch.
+
+•	There are different reasons why you would want to use merge versus rebase. One of these reasons is that rebase leads to a cleaner history when working with many different branches and team members.
+
+Reset:
+•	Perhaps you decide that you want things to be how they were a certain number of commits ago. You can use reset if you are absolutely sure that you don't want the last few commits. Reset is quite a nuanced command, so read carefully before attempting use.
+
+Revert:
+•	Revert allows you to reverse the changes introduced by certain commits by recording new commits to undo the changes. This is a safer option that simply throwing away past commits. But again, use this with caution.
+
+Cherry pick:
+•	Cherry pick allows you to apply the changes introduced by some existing commits. For example, if you have two different branches, and your current branch lacks one or two commits that would be helpful but are only in the other branch, then you can cherry pick to grab those commits without merging or rebasing to get all the commits.
+
+
+
+
+Adding Remotes:
+
+git remote add [short-name] [remote-url]: Adding a remote repository means that you are telling git where the repo is located.
+
+•	HTTP: https://github.com/berkeley-cs61b/skeleton.git
+•	SSH: git@github.com:berkeley-cs61b/skeleton.git
+
+Ex: git remote add origin https://github.com/berkeley-cs61b/skeleton.git
+      git remote add origin git@github.com:berkeley-cs61b/skeleton.git
+
+Renaming, Deleting & Listing Remotes:
+
+git remote rename [old-name] [new-name]: renaming your remote
+
+git remote rm [remote-name]: removing if you are no longer using it
+
+git remote –v: seeing what remotes you have
+
+Cloning a Remote:
+
+git clone [remote-url]: 
+git clone [remote-url] [directory-name]: copying to your own computer
+
+pusing Commits:
+
+git push [remote-name] [remote-branch]: updating the contents of a remote repo by adding some commits that you mad locally
+
+git push origin master
+
+Fetching & Pulling Commits:
+
+Fetch: This is analogous to downloading the commits. It does not incorporate them into your own code.
+
+git fetch [remote-name]:
+•	Why might you use this? Your partner may have created some changes that you'd like to review but keep separate from your own code. Fetching the changes will only update your local copy of the remote code but not merge the changes into your own code.
+
+Pull: fetch + pull
+
+git pull [remote-name] [remote-branch-name]: not only will pull fetch the most recent changes, it will also merge the changes into your HEAD branch.
+
+git pull origin master
+
+
+ 
+
