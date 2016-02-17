@@ -1,0 +1,77 @@
+全局配置git：
+1. git config --global user.name kev
+2. git config --global user.email kev@datageek.info
+3. git config --global color.ui true
+git config --list
+
+配置ssh-keys:
+ssh-keygen -N "" -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+
+创建repository:
+1. git init
+2. git clone web-link
+
+添加及提交文件：
+1. git status
+2. git add file
+3. git commit -m comment
+
+查看git状态：
+1. echo '*~' > .gitignore : placing somthing to ignore file
+2. git status -s:
+    A : add
+    M : modified
+
+查看文件差别：
+1. git diff: differences between working directory and staying area 
+2. git diff --staged : differences between staying area and history
+
+撤销误操作：
+1. git reset filename: replacing staying area file with history file
+    if: git add
+1. git checkout filename: replacing file in working directory with file in staying area
+
+1+1: git checkout HEAD file
+
+移除及重命名文件：
+1. git rm old.py: remove file
+2. git rm --cached code.py: remove file in repository but not working directory
+3. git reset code.py: taking code.py from history and place it to staying area
+4. git mv README.txt README.md
+5. to set README.md back to README:txt
+    1) git rm --cached README.md
+       mv README.md README.txt
+       git add README.txt 
+
+暂存工作区：
+1. git stash
+    story:
+    git stash: 收拾桌面
+    vi code.py
+    git commit -am "quick fix"    
+    git statsh list: what is in the "drawer"
+    git stash pop: take out the old files
+
+图解commit对象：
+1. HEAD~1
+2. git log
+3. git cat-file HEAD
+
+创建及删除分支：
+1. git branch
+1. git branch tryidea
+    git branch:
+    切换：git checkout idea
+
+合并分支：
+1. git checkout -b tryidea: 创建及切换
+    story:
+    vim code.py
+    git commit -am 'new idea'
+    git checkout master
+    git merge tryidea
+    git branch -d tryidea
+
+
+
